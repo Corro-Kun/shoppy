@@ -15,5 +15,5 @@ def insert_products(product: Products):
     cur.execute("INSERT INTO products (idProduct, name, description, price, image, idSession, idUser) VALUES(?, ?, ?, ?, ?, ?, ?)",(idProduct, product.name, product.description, product.price, product.idSession, product.idUser))
     
     cur.execute("SELECT * FROM product WHERE idProduct = ?", (idProduct))
-    return cur.fetchall
+    return cur.fetchall()
 
