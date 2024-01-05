@@ -16,3 +16,12 @@ app.add_middleware(
 app.include_router(session_router)
 app.include_router(product_router)
 app.include_router(auth_router)
+
+@app.get("/")
+def main_application():
+    message = {
+        'message': 'Rest Api made in FastAPI',
+        'by' : 'Corro-Kun'
+    }
+
+    return message
