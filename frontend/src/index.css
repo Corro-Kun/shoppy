@@ -1,4 +1,7 @@
 :root {
+  --Text-Color: #FFD1E3;
+  --Bg-Color: #5D3587;
+  --Bg2-Color: #392467;
 }
 
 *{
@@ -6,3 +9,4 @@
   margin: 0;
   box-sizing: 0;
 }
+

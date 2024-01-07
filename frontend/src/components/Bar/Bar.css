@@ -1,0 +1,41 @@
+.Header-Bar{
+  display: flex;
+  width: 100%;
+  background-color: var(--Bg-Color);
+  justify-content: center;
+}
+.Header-Bar-Response{
+  display: flex;
+  padding: 10px;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header-Bar-Title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Header-Bar-Title-h2{
+  color: var(--Text-Color);
+}
+.Header-Bar-Title-Search{
+  color: var(--Text-Color);
+  margin-left: 10px;
+  transform: translateY(7px);
+  transition: .5s;
+  cursor: pointer;
+}
+.Header-Bar-Title-Search:hover{
+  color: #fff;
+}
+.Header-Bar-Profile{
+}
+.Header-Bar-Profile picture{
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
