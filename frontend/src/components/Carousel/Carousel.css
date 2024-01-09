@@ -1,0 +1,16 @@
+.Carousel-Div{
+  display: flex;
+  height: 50vh;
+  margin: 10px 200px;
+  background-color: #000;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.Carousel-Pictures-Div{
+  width: 65%;
+  background-color: #fff;
+}
+.Carousel-Descripcion-Div{
+  width: 35%;
+  background-color: #f2f;
+}
