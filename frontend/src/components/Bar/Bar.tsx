@@ -18,7 +18,7 @@ export default function Bar(){
     <header className="Header-Bar" >
       <div className="Header-Bar-Response" >
         <div className="Header-Bar-Title" >
-          <h2 className="Header-Bar-Title-h2" >Shoppy</h2>
+          <h2 className="Header-Bar-Title-h2" onClick={()=> navigate("/")} >Shoppy</h2>
           <h2 className="Header-Bar-Title-Search" ><IoMdSearch /></h2>
         </div>
         <div className="Header-Bar-Profile" >

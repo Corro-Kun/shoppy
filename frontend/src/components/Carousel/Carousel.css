@@ -39,3 +39,16 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 400px){
+  .Carousel-Descripcion-Div{
+    display: none;
+  }
+  .Carousel-Div{
+    height: 35vh;
+    margin: 10px 10px;
+  }
+  .Carousel-Pictures-Div{
+    width: 100%;
+  }
+}

@@ -18,6 +18,7 @@
 }
 .Header-Bar-Title-h2{
   color: var(--Text-Color);
+  cursor: pointer;
 }
 .Header-Bar-Title-Search{
   color: var(--Text-Color);
