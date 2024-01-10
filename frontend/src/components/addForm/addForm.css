@@ -1,0 +1,101 @@
+.AddForm-Div{
+  display: flex;
+  margin: 20px 200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.AddForm-Input-Div{
+  margin: 10px 0;
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+.AddForm-Input-Div label{
+  margin-bottom: 3px;
+}
+.AddForm-Input-Div input{
+  padding: 6px 4px;
+  font-size: 1em;
+  outline: none;
+  background-color: var(--Bg-Color);
+  color: var(--Text-Color);
+  border: 1px solid var(--Bg2-Color);
+  border-radius: 5px;
+}
+.AddForm-Input-Div picture{
+  display: flex;
+  margin-top: 10px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.AddForm-Input-Div img{
+  height: 100px;
+}
+.AddForm-Input-Div select{
+  padding: 5px;
+  text-align: center;
+  background-color: var(--Bg-Color);
+  color: var(--Text-Color);
+  border: none;
+  border-radius: 5px;
+}
+.AddForm-Button{
+  padding: 5px;
+}
+.AddForm-Button button{
+  padding: 5px 8px;
+  background-color: var(--Bg-Color);
+  border: none;
+  border-radius: 3px;
+  color: var(--Text-Color);
+  cursor: pointer;
+  transition: .2s;
+}
+.AddForm-Button button:hover{
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1920px){
+  .AddForm-Div{
+    height: 950px;
+  }
+}
+
+@media screen and (max-width: 1900px){
+  .AddForm-Div{
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 1350px){
+  .AddForm-Div{
+    margin: 20px 100px;
+  }
+  .AddForm-Input-Div{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .AddForm-Div{
+    height: 700px;
+    margin: 20px 10px;
+  }
+  .AddForm-Input-Div{
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width: 400px){
+  .AddForm-Div{
+    height: 600px;
+    margin: 20px 5px;
+  }
+  .AddForm-Input-Div{
+    width: 85%;
+  }
+}

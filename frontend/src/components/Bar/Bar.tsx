@@ -1,10 +1,13 @@
 import {useEffect} from "react";
+import {useNavigate} from "react-router-dom";
 import "./Bar.css";
 import { IoMdSearch } from "react-icons/io";
 import { CiShoppingCart } from "react-icons/ci";
+import { GrAddCircle } from "react-icons/gr";
 import { useProfile } from "../../context/profile.tsx";
 
 export default function Bar(){
+  const navigate = useNavigate();
   const {getProfile, Profile} = useProfile();
 
   useEffect(()=>{
@@ -21,6 +24,7 @@ export default function Bar(){
         <div className="Header-Bar-Profile" >
           {Profile?
             <>
+              <h1 onClick={()=> navigate("/add/product")} ><GrAddCircle /></h1>
               <h1><CiShoppingCart /></h1>
               <picture>
                 <img src={Profile?.avatar_url} loading="lazy" />
